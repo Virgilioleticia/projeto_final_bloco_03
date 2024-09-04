@@ -4,7 +4,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import Categoria from "../../../models/Categoria";
 import { atualizar, cadastrar, listar } from "../../../service/Service";
 
-
 function FormCategoria() {
 
   const navigate = useNavigate();
@@ -84,7 +83,7 @@ function FormCategoria() {
           <input
             type="text"
             placeholder="Categoria"
-            name='tipo'
+            name='nome'
             className="border-2 border-slate-700 rounded p-2 utral-800"
             required
             value={categoria.nome}

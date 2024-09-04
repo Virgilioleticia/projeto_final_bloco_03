@@ -6,6 +6,7 @@ import ListarCategorias from './components/categorias/listarcategorias/ListarCat
 import FormCategoria from './components/categorias/formcategoria/FormCategoria';
 import DeletarCategoria from './components/categorias/deletarcategorias/DeletarCategoria';
 
+
 function App() {
 
   return (

@@ -31,9 +31,9 @@ function Navbar() {
                 </div>
 
                 <div className='flex gap-4 py-4'>
-                <div className='hover:underline'>Produtos</div>
-                    <div className='hover:underline'>Categorias</div>
-                    <div className='hover:underline'>Cadastrar Categoria</div>
+                    Produto
+                    <Link to='/categorias' className='hover:underline'>Categorias</Link>
+                    <Link to='/cadcategoria' className='hover:underline'>Cadastrar Categoria</Link>
                     <User size={32} weight='bold' />
                     <ShoppingCart size={32} weight='bold' />
                 </div>
